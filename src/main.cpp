@@ -74,7 +74,6 @@ int main(int argc , char* argv[]){
 	cout << "Escribiendo imagen" << endl;
 	string out = "out/salida.ppm";
 	img.write(out);  
-	img_target.write(out); 
 	cout << "Listo" << endl;
 	return 0;
 }
